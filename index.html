@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Lasaña casera</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<a
+				href="#"
+				class="logo">
+				<img
+					src="./assets/food-svgrepo-com.svg"
+					alt="espigas de trigo color verde" />
+				Recetas
+			</a>
+			<input
+				type="checkbox"
+				id="menu-toggle"
+				class="menu-toggle" />
+			<label
+				for="menu-toggle"
+				class="hamburger"
+				>&#9776;</label
+			>
+			<nav class="nav-links">
+				<ul class="menu">
+					<li><a href="#main">Inicio</a></li>
+					<li><a href="#ingredients">Ingredientes</a></li>
+					<li><a href="#ragu">Salsa Ragú</a></li>
+					<li><a href="#bechamel">Salsa Bechamel</a></li>
+					<li><a href="#perfectCapes">Montaje</a></li>
+					<li><a href="#baking">Horneado</a></li>
+					<li class="has-submenu">
+						<a href="#">Consejos</a>
+						<ul class="submenu">
+							<li><a href="#tips1">Tips para pasta</a></li>
+							<li><a href="#tips2">Acompañamientos</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main id="main">
+			<h1>Lasaña Casera: Receta Tradicional Paso a Paso</h1>
+			<p>
+				Aprende a preparar una lasaña deliciosa y auténtica con nuestra receta
+				detallada. <br />
+				Cada paso está ilustrado para que puedas disfrutar de un plato clásico
+				italiano hecho en casa.
+			</p>
+		</main>
+		<section
+			class="ingredients-container"
+			id="ingredients">
+			<div class="list-ingredients">
+				<h2>Ingredientes Exactos para una Lasaña Perfecta</h2>
+				<div class="card-list">
+					<h3>Carnes y Vegetales</h3>
+					<ul>
+						<li>Carne picada de res - 500g</li>
+						<li>Tomates maduros - 800g</li>
+						<li>Cebolla blanca - 200g</li>
+						<li>Ajo (2 dientes) - 10g</li>
+						<li>Zanahoria - 150g</li>
+						<li>Apio - 100g</li>
+					</ul>
+				</div>
+				<div class="card-list">
+					<h3>Otros Líquidos y Especias</h3>
+					<ul>
+						<li>Vino tinto - 150ml</li>
+						<li>Aceite de oliva virgen extra - 50ml</li>
+						<li>Hierbas provenzales - 5g</li>
+						<li>Sal - 8g</li>
+						<li>Pimienta negra molida - 2g</li>
+					</ul>
+				</div>
+				<div class="card-list">
+					<h3>Pasta y Quesos</h3>
+					<ul>
+						<li>Pasta para lasaña - 250g</li>
+						<li>Queso parmesano rallado - 150g</li>
+						<li>Queso mozzarella rallado - 200g</li>
+					</ul>
+				</div>
+				<div class="card-list">
+					<h3>Ingredientes para la Bechamel</h3>
+					<ul>
+						<li>Mantequilla - 50g</li>
+						<li>Harina de trigo - 50g</li>
+						<li>Leche entera - 750ml</li>
+						<li>Nuez moscada - 1g</li>
+					</ul>
+				</div>
+			</div>
+			<div class="image-ingredients">
+				<img
+					src="./assets/ingredients.jpg"
+					alt="ingredientes" />
+			</div>
+		</section>
+		<section
+			class="steps-container"
+			id="ragu">
+			<h2>Preparación del Ragú: Salsa de Carne Clásica</h2>
+			<ol class="recipe-steps">
+				<li>
+					<div class="step-number">1</div>
+					<div>
+						<h3>Saltear Vegetales</h3>
+						<p>
+							Sofríe cebolla, ajo, zanahoria y apio picados durante 15 minutos
+							hasta que estén tiernos.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="step-number">2</div>
+					<div>
+						<h3>Dorar la Carne</h3>
+						<p>
+							Añade la carne picada y cocina por 10 minutos hasta que se dore
+							uniformemente.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="step-number">3</div>
+					<div>
+						<h3>Incorpora Vino Tinto</h3>
+						<p>
+							Agrega el vino tinto y deja reducir por 5 minutos para
+							intensificar el sabor.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="step-number">4</div>
+					<div>
+						<h3>Finaliza Cocción Agrega tomates</h3>
+						<p>
+							triturados, hierbas, sal y pimienta. Cocina a fuego lento por 60
+							minutos.
+						</p>
+					</div>
+				</li>
+			</ol>
+		</section>
+		<section
+			class="ingredients-container"
+			id="bechamel">
+			<div>
+				<h2>Cómo Preparar la Salsa Bechamel</h2>
+				<ol class="sauce-steps">
+					<li>
+						<h3>Derretir Mantequilla</h3>
+						<p>Calienta la mantequilla en una cacerola por 2 minutos.</p>
+					</li>
+					<li>
+						<h3>Formar Roux</h3>
+						<p>
+							Añade la harina y mezcla hasta obtener una pasta homogénea durante
+							3 minutos.
+						</p>
+					</li>
+					<li>
+						<h3>Agregar Leche</h3>
+						<p>
+							Vierte la leche caliente poco a poco, removiendo constantemente
+							por 10 minutos hasta espesar.
+						</p>
+					</li>
+					<li>
+						<h3>Sazonar</h3>
+						<p>
+							Incorpora nuez moscada, sal y pimienta y cocina 5 minutos más.
+						</p>
+					</li>
+				</ol>
+			</div>
+			<div class="image-ingredients sauce-img">
+				<img
+					src="./assets/sauce.jpg"
+					alt="salsa bechamel" />
+			</div>
+		</section>
+		<section
+			class="tips-container"
+			id="tips1">
+			<h2>Consejos para Cocer la Pasta Perfecta</h2>
+			<p>
+				Cocer la pasta en agua hirviendo con sal siguiendo las instrucciones del
+				fabricante para conservar textura firme. Añade un chorrito de aceite al
+				agua para evitar que se pegue.
+			</p>
+			<p>
+				Escurre la pasta cuidadosamente y reserva para el montaje. La pasta debe
+				estar al dente para evitar que se deshaga al hornear.
+			</p>
+		</section>
+		<section
+			class="steps-container"
+			id="perfectCapes">
+			<h2>Montaje de la Lasaña: Capas Perfectas</h2>
+			<ol class="recipe-steps">
+				<li>
+					<div class="step-number">1</div>
+					<div>
+						<h3>Base con Bechamel</h3>
+						<p>
+							Cubre el fondo del molde con salsa bechamel para evitar que se
+							pegue.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="step-number">2</div>
+					<div>
+						<h3>Capa de Pasta</h3>
+						<p>Coloca una capa uniforme de pasta para lasaña.</p>
+					</div>
+				</li>
+				<li>
+					<div class="step-number">3</div>
+					<div>
+						<h3>Ragú y Quesos</h3>
+						<p>
+							Añade el ragú de carne seguido de queso parmesano y mozzarella.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="step-number">4</div>
+					<div>
+						<h3>Repetir y Terminar</h3>
+						<p>
+							Repite capas hasta finalizar con bechamel y mucho queso para un
+							gratinado dorado.
+						</p>
+					</div>
+				</li>
+			</ol>
+		</section>
+		<section
+			class="ingredients-container baking-steps"
+			id="baking">
+			<div class="image-ingredients oven-image">
+				<img
+					src="./assets/oven.jpg"
+					alt="lasaña en horno" />
+			</div>
+			<div>
+				<h2>El Horneado Ideal para la Lasaña</h2>
+				<ol class="sauce-steps">
+					<li>
+						<h3>Precalentar</h3>
+						<p>Precalienta el horno a 180°C (350°F).</p>
+					</li>
+					<li>
+						<h3>Hornear</h3>
+						<p>
+							Hornea la lasaña durante 30-40 minutos hasta que esté dorada y
+							burbujeante.
+						</p>
+					</li>
+					<li>
+						<h3>Reposar</h3>
+						<p>
+							Deja reposar 10 minutos antes de cortar para que se asiente y sea
+							más fácil servir.
+						</p>
+					</li>
+				</ol>
+			</div>
+		</section>
+		<section class="ingredients-container baking-steps">
+			<div class="image-ingredients lasagna-ready">
+				<img
+					src="./assets/final-result.jpg"
+					alt="Lasaña lista en un plato" />
+			</div>
+			<div class="last-tips">
+				<h2>Lasaña Lista para Disfrutar</h2>
+				<div
+					class="final-tips-container"
+					id="tips2">
+					<div class="final-tips">
+						<h3>Consejo 1</h3>
+						<p>
+							Acompaña con ensalada fresca para equilibrar los sabores y aportar
+							frescura.
+						</p>
+					</div>
+					<div class="final-tips">
+						<h3>Consejo 2</h3>
+						<p>
+							Utiliza ingredientes de alta calidad para lograr un sabor
+							auténtico y delicioso.
+						</p>
+					</div>
+					<div class="final-tips wide">
+						<h3>Consejo 3</h3>
+						<p>
+							Experimenta con diferentes quesos para personalizar y enriquecer
+							tu lasaña.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="social-container">
+				<a
+					href="https://www.linkedin.com/in/diana-casta%C3%B1o-zapata-aba84284/"
+					target="_blank"
+					rel="noopener noreferrer">
+					<img
+						src="./assets/linkedin-rounded-svgrepo-com.svg"
+						alt="LinkedIn logo" />
+				</a>
+				<a
+					href="https://github.com/Natsumychan"
+					target="_blank"
+					rel="noopener noreferrer">
+					<img
+						src="./assets/github-142-svgrepo-com.svg"
+						alt="GitHub logo" />
+				</a>
+			</div>
+			<div class="text-container">
+				<p>Hecho por Diana Castaño Z</p>
+				<p>2025</p>
+			</div>
+			<div class="text-container">
+				<p>para más detalles de está página click <a href="">aquí</a></p>
+			</div>
+		</footer>
+		<!-- <p>
+			Con base en el siguiente contexto aplique los principales componentes de
+			HTML y CSS: elabore una página que enseñe un pequeño tutorial
+			seleccionando un tema de su gusto. Establezca un título. Emplee una lista
+			ordenada para indicar los distintos conceptos que contiene el tutorial con
+			enlaces a los temas propiamente dichos. Cada tema debe tener su título
+			imagen y la descripción del tema.
+		</p> -->
+	</body>
+</html>
